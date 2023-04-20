@@ -1,0 +1,6 @@
+GET - 	Read from database
+PUT -	UPdate/replace row in database
+PATCH -	update/modify row in database
+POST -	Create a new record in the database
+DELETE -Delete from the database
+

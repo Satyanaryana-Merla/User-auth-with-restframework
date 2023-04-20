@@ -1,0 +1,27 @@
+Creating new venv 		: 	python -m venv myworld
+
+To activate venv 		: 	myworld/Scripts/activate.bat
+
+installing Django		: 	pip install django
+
+Creating the folder		:	django-admin startproject projectname
+
+moveing into that folder: 	cd foldername
+
+Creating App 			: 	python manage.py startapp appname
+
+Run server			    :	python manage.py runserver
+
+Any modification		:   python manage.py makemigrations , python manage.py migrate
+
+Database connection		: 	pip install mysqlclient
+
+
+
+python manage.py migrate --run-syncdb
+
+Creating .venv folder in vcode : first create .py file 
+and 
+
+
+If any error happens		 : 	python manage.py migrate --fake
